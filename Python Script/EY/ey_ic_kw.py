@@ -16,7 +16,7 @@ engine = create_engine(URL(
     role='ACCOUNTADMIN'
 ))
 
-# read csv data from source file
+# read csv data from EY source file
 
 source_file_loc = (r"C:\Work\Audience Bridge\Round 2\Source\EY\EY IC - KW list.csv")
 ext_file_location = (r"C:\Work\Audience Bridge\Round 2\Imported\EY\EY IC - KW list_updated.csv")
